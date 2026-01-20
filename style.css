@@ -19,29 +19,6 @@ nav {
   padding: 15px 40px;
 }
 
-.menu-btn{
-  font-size:28px;
-  cursor:pointer;
-}
-
-#menu{
-  display:none;
-  position:absolute;
-  right:20px;
-  background:#222;
-}
-
-#menu a{
-  display:block;
-  color:#fff;
-  padding:10px;
-  text-decoration:none;
-}
-
-#menu a:hover{
-  background:#444;
-}
-
 nav .logo {
   color: #fff;
 }
