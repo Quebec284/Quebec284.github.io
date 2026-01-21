@@ -287,3 +287,18 @@ footer {
 .nav-links.show {
   display: flex;
 }
+
+.facebook-btn {
+  display: inline-block;
+  background-color: #1877f2;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.facebook-btn:hover {
+  background-color: #145dbf;
+}
