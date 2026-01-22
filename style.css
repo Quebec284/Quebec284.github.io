@@ -288,17 +288,38 @@ footer {
   display: flex;
 }
 
-.facebook-btn {
-  display: inline-block;
-  background-color: #1877f2;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+.social-media {
+  margin-top: 25px;
+  text-align: center;
 }
 
-.facebook-btn:hover {
-  background-color: #145dbf;
+.social-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #ccc;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  background: #6a5acd; /* violet-blue */
+  transform: translateY(-4px);
 }
