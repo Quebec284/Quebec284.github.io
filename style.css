@@ -46,7 +46,7 @@ nav ul li a {
   justify-content: space-around;
   align-items: center;
   padding: 60px;
-  background: white;
+  background-color: #e6f2ff; /* light blue */
 }
 
 .hero-text {
@@ -98,11 +98,12 @@ section {
 
 /* PROJECTS */
 .project-card {
-  background: white;
+  background-color: #e6f2ff;
   margin: 20px auto;
   padding: 20px;
   max-width: 600px;
   border-radius: 8px;
+  border: 1px solid #0d6efd;
 }
 
 /* FOOTER */
@@ -156,11 +157,10 @@ footer {
   margin-bottom: 15px;
 }
 
-#get-in-touch p {
-  font-size: 16px;
-  max-width: 600px;
-  margin: auto;
-  color: #555;
+#get-in-touch {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e6f2ff;
 }
 #contact {
   text-align: center;
@@ -207,12 +207,12 @@ footer {
 
 /* PORTFOLIO SECTION BOXES */
 .section-box {
-  border: 2px solid #0d6efd; /* Blue border */
+  border: 2px solid #0d6efd;
   border-radius: 12px;
   padding: 30px;
   margin: 40px auto;
   max-width: 1000px;
-  background-color: #f8fbff;
+  background-color: #e6f2ff; /* Stronger light blue*/
 }
 
 /* Section titles */
